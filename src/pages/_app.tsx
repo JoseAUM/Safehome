@@ -3,6 +3,7 @@ import '../styles/_common.scss';
 import '../styles/_constants.scss';
 import '../styles/components/NavBar.scss';
 import '../styles/components/Footer.scss';
+import '../styles/components/HomeBackgroundImage.scss';
 import '../styles/globals.scss';
 import type { AppProps } from 'next/app';
 import TopLayout from '../components/shared/TopLayout';
