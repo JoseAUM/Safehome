@@ -18,8 +18,23 @@
   @include full-width-bg($primary-color);
 }
 
+.secondary-full-bg {
+  @include full-width-bg($secondary-color);
+}
+
 .darker-primary-full-bg {
   @include full-width-bg($darker-primary-color);
+}
+
+.semi-white-full-bg {
+  @include full-width-bg($semi-white-color);
+}
+
+.home-image-full-bg {
+  @include full-width-bg($white-color);
+  background-image: $home;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .primary-color {
